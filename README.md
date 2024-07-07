@@ -41,9 +41,15 @@ Then we retrieve the corresponding webpage from the url. We skip this url if ret
 We then extract plain text of the webpage using BeautifulSoup. We truncate the text to 10000 characters if it is any longer than that. Then, we split the text into sentences using SpaCy. We also need to have of list of entities_of_interest based on user input 'r'.
 Then we initialize some variables to keep track of the number of sentences that we extract annotations from, the number of extractions we had on current website, and the number of extractions that we successfully added to X from current website.
 For each sentence, we first create all entity pairs. Then for each entity pair, we check if the subject and object match the relation we are interested in. We save all entity pairs we are interested in in the examples list.
-If -spanbert is specified, we run spanbert using examples list.
- 
-Spanbert provides us the predicted relationship for each entity pair. We only consider the ones with the correct relationship and high enough confidence level (confidence level above the threshold provided by the user). We ignore the ones with confidence lower than threshold 't' or the ones that are duplicated and with lower confidence than existing record. If -gemini is specified, we run gemini using the sentence if examples list is not empty. We create a prompt based on the required relation, subject, object, and the sentence. We specify the output format in the prompt so that we can split the output using keyword and interpret them. We add all outputs that are not empty to X.
+
+
+If -spanbert is specified, we run spanbert using examples list. Spanbert provides us the predicted relationship for each entity pair. We only consider the ones with the correct relationship and high enough confidence level (confidence level above the threshold provided by the user). We ignore the ones with confidence lower than threshold 't' or the ones that are duplicated and with lower confidence than existing record. 
+
+If -gemini is specified, we run gemini using the sentence if examples list is not empty. We create a prompt based on the required relation, subject, object, and the sentence. We specify the output format in the prompt so that we can split the output using keyword and interpret them. We add all outputs that are not empty to X.
+
+# Transcripts
+
+The transcripts folder contains two files; gemini_transcript.txt, which contains the transcript for the test case run of Google Gemini, and spanbert_transcript.txt, which contains the transcript for the test case run of SpanBERT.
 
 
 
