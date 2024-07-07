@@ -34,6 +34,8 @@ Then we go back to the process_url() function, and keep track of all the extract
 Finally, we go back to the loop() function, and check whether we have enough entity pairs extracted in X. If we
 have more than or equal to 'k' entity pairs extracted in X, then we display all the entity pairs, and end the program. If we have less than 'k' entity pairs extracted in X, then we call another iteration, by again searching for the top 10 results using the Google Search API.
 
+# Extraction of Relations from Webpages Using BeautifulSoup, spaCy, and SpanBERT/Gemini
+
 In process_url() function, first we check if we have processed this url before. If so, we skip this url.
 Then we retrieve the corresponding webpage from the url. We skip this url if returned status code is not 200.
 We then extract plain text of the webpage using BeautifulSoup. We truncate the text to 10000 characters if it is any longer than that. Then, we split the text into sentences using SpaCy. We also need to have of list of entities_of_interest based on user input 'r'.
