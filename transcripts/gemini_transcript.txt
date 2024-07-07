@@ -1,0 +1,323 @@
+(dbproj) user@cs6111-instance-copy-20240319-193619:~/COMS6111-project2/SpanBERT$ python3 project2.py -gemini 2 0.0 "bill gates microsoft" 10
+Parameters:
+Method       = gemini
+Relation     = 2
+Threshold    = 0.0
+Query        = bill gates microsoft
+# of Tuples  = 10
+Loading necessary libraries; This should take a minute or so ...)
+=========== Iteration: 0 - Query: bill gates microsoft ===========
+
+
+URL ( 1 / 10 ): https://en.wikipedia.org/wiki/Bill_Gates
+        Fetching text from url ...
+        Webpage length (num characters): 10000
+        Annotating the webpage using spacy...
+        Extracted 36 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Processed 5 / 36 sentences
+                === Extracted Relation ===
+                Sentence: Bill GatesGates in 2023BornWilliam Henry Gates III (1955-10-28) October 28, 1955 (age 68)Seattle, Washington, U.S.EducationHarvard University (dropped out)OccupationsBusinessmaninvestorphilanthropistwriterYears active1972–presentKnown for
+Pioneer of the personal computer revolution with Paul Allen
+Co-founding of Microsoft and Bill & Melinda Gates Foundation
+Title
+See list
+ Co-chair of the Bill & Melinda Gates Foundation
+ Chairman and founder of Cascade Investment
+ Chairman and founder of Branded Entertainment Network
+ Chairman and co-founder of TerraPower
+ Founder of Breakthrough Energy
+ Founder of Gates Ventures
+ Technology advisor of Microsoft[1]
+Spouse
+Melinda French
+​ ​(m. 1994; div. 2021)​Children3Parents
+Bill Gates Sr.
+Mary Maxwell
+Awards
+Knight Commander of the Order of the British Empire (2005)
+Padma Bhushan (2015)
+Presidential Medal of Freedom (2016)
+Hilal-e-Pakistan (2022)
+
+                Subject: Bill Gates ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: Websitegatesnotes.comSignature
+
+
+This article is part of a series about
+Bill Gates
+
+Awards and honors
+Philanthropy
+Political positions
+Public image
+Residence
+
+Companies
+Traf-O-Data
+Microsoft (criticism)
+BEN
+Cascade Investment
+TerraPower
+Gates Ventures
+
+Charitable organizations
+Bill & Melinda Gates Foundation
+Match for Africa
+The Giving Pledge
+OER Project
+Breakthrough Energy
+Mission Innovation
+
+Writings
+"An Open Letter to Hobbyists"
+The Road Ahead
+Business @ the Speed of Thought
+How to Avoid a Climate Disaster
+How to Prevent the Next Pandemic
+
+Related
+Bill Gates' flower fly
+Codex Leicester
+Lost on the Grand Banks
+History of Microsoft
+Timeline of Microsoft
+Paul Allen
+
+vte
+William Henry Gates III  (born October 28, 1955) is an American businessman, investor, philanthropist, and writer best known for co-founding the software giant Microsoft, along with his childhood friend Paul Allen.
+                Subject: William Henry Gates III ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+        Processed 10 / 36 sentences
+                === Extracted Relation ===
+                Sentence: In 1975, he and Allen founded Microsoft in Albuquerque, New Mexico.
+                Subject: he ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+        Processed 15 / 36 sentences
+                === Extracted Relation ===
+                Sentence: In June 2008, Gates transitioned into a part-time role at Microsoft and full-time work at the Bill & Melinda Gates Foundation, the private charitable foundation he and his then-wife Melinda had established in 2000.[6]
+                Subject: Gates ; Object: Bill & Melinda Gates Foundation ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: He stepped down as chairman of the Microsoft board in February 2014 and assumed the role of technology adviser to support newly appointed CEO Satya Nadella.[7]
+                Subject: Satya Nadella ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: In March 2020, Gates left his board positions at Microsoft and Berkshire Hathaway to focus on his philanthropic efforts on climate change, global health and development, and education.[8]
+Since 1987, Gates has been included in the Forbes list of the world's billionaires.
+                Subject: Gates ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+        Processed 20 / 36 sentences
+                === Extracted Relation ===
+                Sentence: In October 2017, he was surpassed by Amazon founder Jeff Bezos, who had an estimated net worth of US$90.6 billion compared to Gates's net worth of US$89.9 billion at the time.[9]
+                Subject: Jeff Bezos ; Object: Amazon ;
+                Adding to set of extracted relations
+                ==========
+        Processed 25 / 36 sentences
+        Processed 30 / 36 sentences
+        Processed 35 / 36 sentences
+        Extracted annotations for 7 out of total 36 sentences
+        Relations extracted from this website: 7 (Overall: 7)
+
+
+URL ( 2 / 10 ): https://twitter.com/BillGates
+        Fetching text from url ...
+Unable to retrieve url. Skipping...
+
+
+URL ( 3 / 10 ): https://www.instagram.com/thisisbillgates/
+        Fetching text from url ...
+        Webpage length (num characters): 58
+        Annotating the webpage using spacy...
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Extracted annotations for 0 out of total 1 sentences
+        Relations extracted from this website: 0 (Overall: 0)
+
+
+URL ( 4 / 10 ): https://news.microsoft.com/tag/bill-gates/
+        Fetching text from url ...
+Unable to retrieve url. Skipping...
+
+
+URL ( 5 / 10 ): https://www.britannica.com/biography/Bill-Gates
+        Fetching text from url ...
+        Webpage length (num characters): 10000
+        Annotating the webpage using spacy...
+        Extracted 39 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Processed 5 / 39 sentences
+        Processed 10 / 39 sentences
+        Processed 15 / 39 sentences
+        Processed 20 / 39 sentences
+                === Extracted Relation ===
+                Sentence: Bill Gates - Children's Encyclopedia (Ages 8-11)
+Bill Gates - Student Encyclopedia (Ages 11 and up)
+
+
+
+
+Also known as: William Henry Gates III
+
+
+
+
+                                Written and fact-checked by
+
+
+
+The Editors of Encyclopaedia Britannica
+Encyclopaedia Britannica's editors oversee subject areas in which they have extensive knowledge, whether from years of experience gained by working on that content or via study for an advanced degree.
+                Subject: The Editors of Encyclopaedia Britannica ; Object: Encyclopaedia Britannica ;
+                Adding to set of extracted relations
+                ==========
+        Processed 25 / 39 sentences
+                === Extracted Relation ===
+                Sentence: Where did Bill Gates go to college?Bill Gates attended Harvard University.
+                Subject: Bill Gates ; Object: Harvard University ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: However, he dropped out in his junior year to found Microsoft with his friend Paul Allen.
+                Subject: he ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Sentence: What are Bill Gates’s major accomplishments?Bill Gates founded the software company Microsoft Corporation with his friend Paul Allen.
+                Subject: Bill Gates ; Object: Microsoft Corporation ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: Bill Gates (born October 28, 1955, Seattle, Washington, U.S.) is an American computer programmer and entrepreneur who cofounded Microsoft Corporation, the world’s largest personal-computer software company.
+                Subject: Bill Gates ; Object: Microsoft Corporation ;
+                Duplicate. Ignoring this.
+                ==========
+        Processed 30 / 39 sentences
+                === Extracted Relation ===
+                Sentence: In 1975 Gates, then a sophomore at Harvard University, joined his hometown friend Paul G. Allen to develop software for the first microcomputers.
+                Subject: Gates ; Object: Harvard University ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: With the success of this project, Gates left Harvard during his junior year and, with Allen, formed Microsoft.
+                Subject: Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+        Processed 35 / 39 sentences
+        Extracted annotations for 7 out of total 39 sentences
+        Relations extracted from this website: 4 (Overall: 7)
+
+
+URL ( 6 / 10 ): https://www.linkedin.com/in/williamhgates
+        Fetching text from url ...
+Unable to retrieve url. Skipping...
+
+
+URL ( 7 / 10 ): https://www.forbes.com/profile/bill-gates/
+        Fetching text from url ...
+        Webpage length (num characters): 6854
+        Annotating the webpage using spacy...
+        Extracted 38 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+                === Extracted Relation ===
+                Sentence: In PROFILEBill GatesCochair, Bill & Melinda Gates Foundation$131B$699M (0.53%)Real Time Net Worthas of 3/25/24Reflects change since 5 pm ET of prior trading day.#7 in the world todayPhoto by John KeatleyAbout Bill GatesBill Gates turned his fortune from software firm Microsoft into diversified holdings including investments in zero-carbon energy companiesIn May 2021, Bill and Melinda Gates each announced on Twitter they were ending their marriage after 27 years.
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Sentence: Gates, who cofounded Microsoft with Paul Allen (d. 2018) in 1975, transferred at least $6 billion worth of shares in public companies to Melinda as part of the divorce settlement.
+                Subject: Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+        Processed 5 / 38 sentences
+                === Extracted Relation ===
+                Sentence: As of March 2020, when Gates stepped down from the Microsoft board, he owned about 1.3% of the software and computing company's shares.
+                Subject: Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+        Processed 10 / 38 sentences
+                === Extracted Relation ===
+                Sentence: Bill GatesRelated People & CompaniesWarren BuffettFriendView ProfileMicrosoftHolds stake in MicrosoftView ProfileHarvard UniversityAttended
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Sentence: WA Metropolitan AreaView ProfileSee MoreSee LessMore on ForbesMar 24, 2024Why Bill Gates Reckons Houston May Become The ‘Silicon Valley Of Energy’Billionaire and philanthropist Bill Gates took spotlight at energy event CERAWeek to opine that the next wave of energy and climate breakthroughs may come from Houston.
+                Subject: Bill Gates ; Object: CERAWeek ;
+                Adding to set of extracted relations
+                ==========
+        Processed 15 / 38 sentences
+                === Extracted Relation ===
+                Sentence: ByRosemarie MillerForbes StaffMar 19, 2024TerraPower: What We Know About Bill Gates's Nuclear Power Plant In WyomingThe Gates-founded company has secured $2 billion in funding from the federal government and expects the plant to be active by 2030.ByAntonio Pequeño IVForbes StaffMar 14, 2024Study Shows College Enrollment Falling With Perceptions Of Its ValueA new study from the Bill & Melinda Gates Foundation suggests that negative messages in media and culture are contributing to declining college enrollment.
+                Subject: Bill Gates ; Object: TerraPower ;
+                Adding to set of extracted relations
+                ==========
+        Processed 20 / 38 sentences
+                === Extracted Relation ===
+                Sentence: ByMeg Little ReillyContributorMar 6, 2024This Bill Gates-Backed Startup Is Trying To Fix Steel’s Horrible Environmental ImpactWith more than $350 million in venture funding and a new factory in Brazil, Boston Metal looks to scale up production of its green method for making steel.
+                Subject: Bill Gates ; Object: Boston Metal ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: Moses Preached The Power Of MathBill Gates, the Microsoft founder, is on a crusade to prioritize math.
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Sentence: BySiladitya RayForbes StaffFeb 22, 2024America's Top 5 Most Philanthropic BillionairesFour newcomers join billionaires including Warren Buffett, Bill Gates and MacKenzie Scott in the ranks of the nation’s most generous donors.
+                Subject: BySiladitya Ray ; Object: Forbes ;
+                Adding to set of extracted relations
+                ==========
+        Processed 25 / 38 sentences
+                === Extracted Relation ===
+                Sentence: ByForbes Wealth TeamForbes StaffFeb 11, 2024Bill Gates-Backed Clean Fuel Startup Raises $246 Million To Aid Plans To Drill For HydrogenKoloma, which extracts naturally occurring hydrogen from underground deposits, added Khosla Ventures, Amazon and United as key backers in its biggest funding round.
+                Subject: Bill Gates ; Object: Clean Fuel Startup ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: ByAlan OhnsmanForbes StaffJan 25, 2024Bill & Melinda Gates Foundation Chief Calls On More Billionaires To Do More PhilanthropyExtreme poverty has increased.
+                Subject: Bill & Melinda Gates Foundation Chief ; Object: Extreme poverty ;
+                Adding to set of extracted relations
+                ==========
+        Processed 30 / 38 sentences
+        Processed 35 / 38 sentences
+        Extracted annotations for 11 out of total 38 sentences
+        Relations extracted from this website: 6 (Overall: 11)
+
+
+URL ( 8 / 10 ): https://answers.microsoft.com/.../microsoft...bill-gates.../cd76d0e2-ece4-45...
+        Fetching text from url ...
+Unable to retrieve url. Skipping...
+
+
+URL ( 9 / 10 ): https://fortune.com/.../microsofts-steve-ballmer-was-once-bill-gates-assistant...
+        Fetching text from url ...
+Unable to retrieve url. Skipping...
+
+
+URL ( 10 / 10 ): https://www.gatesnotes.com/Home
+        Fetching text from url ...
+Unable to retrieve url. Skipping...
+================== ALL RELATINOS for Work_For ( 17 ) ==================
+Subject: Bill Gates     | Object: Microsoft
+Subject: William Henry Gates III        | Object: Microsoft
+Subject: he     | Object: Microsoft
+Subject: Gates  | Object: Bill & Melinda Gates Foundation
+Subject: Satya Nadella  | Object: Microsoft
+Subject: Gates  | Object: Microsoft
+Subject: Jeff Bezos     | Object: Amazon
+Subject: The Editors of Encyclopaedia Britannica        | Object: Encyclopaedia Britannica
+Subject: Bill Gates     | Object: Harvard University
+Subject: Bill Gates     | Object: Microsoft Corporation
+Subject: Gates  | Object: Harvard University
+Subject: Bill Gates     | Object: CERAWeek
+Subject: Bill Gates     | Object: TerraPower
+Subject: Bill Gates     | Object: Boston Metal
+Subject: BySiladitya Ray        | Object: Forbes
+Subject: Bill Gates     | Object: Clean Fuel Startup
+Subject: Bill & Melinda Gates Foundation Chief  | Object: Extreme poverty
+Total # of iterations = 1
