@@ -7,16 +7,16 @@ Ronitt Mehra (UNI: rm4084) <br>
 Yueran Ma (UNI: ym2876)
 
 # Steps to run the program
-`git clone https://github.com/Ronitt272/Enhanced-Information-Retrieval-System-with-Query-Expansion.git`
-`cd Enhanced-Information-Retrieval-System-with-Query-Expansion`
-`pip3 install -r requirements.txt`
-`pip3 install -q -U google-generativeai`
-`pip3 install --upgrade google-api-python-client`  
-`pip3 install beautifulsoup4`
-`pip3 install -U pip setuptools wheel`
-`pip3 install -U spacy`
-`python3 -m spacy download en_core_web_lg`
-`python3 project2.py [-spanbert|-gemini] <google api key> <google engine id> <google gemini api key> <r> <t> <q> <k>`
+`git clone https://github.com/Ronitt272/Enhanced-Information-Retrieval-System-with-Query-Expansion.git` <br>
+`cd Enhanced-Information-Retrieval-System-with-Query-Expansion` <br>
+`pip3 install -r requirements.txt` <br>
+`pip3 install -q -U google-generativeai` <br>
+`pip3 install --upgrade google-api-python-client`  <br>
+`pip3 install beautifulsoup4` <br>
+`pip3 install -U pip setuptools wheel` <br>
+`pip3 install -U spacy` <br>
+`python3 -m spacy download en_core_web_lg` <br>
+`python3 project2.py [-spanbert|-gemini] <google api key> <google engine id> <google gemini api key> <r> <t> <q> <k>` <br>
 
 r => an integer between 1 and 4, indicating the relation to extract: 1 is for Schools_Attended, 2 is for Work_For, 3 is for Live_In, and 4 is for Top_Member_Employees.
 t => is a real number between 0 and 1, indicating the "extraction confidence threshold," which is the minimum extraction confidence that we request for the tuples in the output; t is ignored if we are specifying -gemini.
